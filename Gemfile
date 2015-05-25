@@ -29,7 +29,7 @@ group :production do
 	gem 'pg'
 end
 
-group :developmet, :test do
+group :development, :test do
 	gem 'spring'
 	gem 'sqlite3'
 end
